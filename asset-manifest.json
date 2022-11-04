@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/larq-assignment/static/css/main.f61c2f35.css",
+    "main.js": "/larq-assignment/static/js/main.365b7691.js",
+    "static/media/bottle.png": "/larq-assignment/static/media/bottle.40e0a067a2e259bd6e13.png",
+    "static/media/image03.png": "/larq-assignment/static/media/image03.5d61c2e858dfb0011359.png",
+    "static/media/image01.png": "/larq-assignment/static/media/image01.6716a12e0687e45477de.png",
+    "static/media/image02.png": "/larq-assignment/static/media/image02.f4e50e02e5f8a1454765.png",
+    "static/media/cap.png": "/larq-assignment/static/media/cap.c440362c7caabab37a34.png",
+    "static/media/avatar1.png": "/larq-assignment/static/media/avatar1.8c45615169e9d17515e8.png",
+    "index.html": "/larq-assignment/index.html",
+    "main.f61c2f35.css.map": "/larq-assignment/static/css/main.f61c2f35.css.map",
+    "main.365b7691.js.map": "/larq-assignment/static/js/main.365b7691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f61c2f35.css",
+    "static/js/main.365b7691.js"
+  ]
+}
