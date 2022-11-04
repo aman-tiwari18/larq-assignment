@@ -1,0 +1,11 @@
+.color{
+    
+    box-sizing: border-box;
+    /* line-height: 20px; */
+    opacity: 0.9;
+    background: radial-gradient(198.89% 50% at 50% 50%, #0A7ABF 0%, rgba(255, 255, 255, 0.7) 100%),
+radial-gradient(0% 50% at 50% 50%, #0F0F0F 0%, rgba(21, 21, 21, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(170.42% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    
+
+}
