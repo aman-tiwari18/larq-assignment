@@ -3,6 +3,7 @@ import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 import Work from "./components/Work";
+import Bottles from "./screens/Bottles";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Navbar />
       <Homepage />
       </div>
+      <Bottles />
       <Work/>
       <Testimonials/>
-      {/* <Work/> */}
+
     </div>
   );
 }

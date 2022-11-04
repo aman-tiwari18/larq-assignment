@@ -9,7 +9,7 @@ const Work = () => {
     <div className="bg-white p-6">
       <div className="mt-4 mx-10 grid grid-row-2 grid-flow-col gap-6">
         <div className="text-[40px] ml-20 font-bold italic text-quote row-span-2">
-          OUR WORK_
+          OUR WORK<span className="animate-fade">{" _"}</span>
         </div>
         <div className="col-span-2 row-span-1">
           <div className="grid-cols-2 grid gap-4">

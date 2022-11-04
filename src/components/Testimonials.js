@@ -11,7 +11,7 @@ const Testimonials = () => {
         <div className = "tcolor">
             <div className = "py-6  ">
                 <div className = "text-center text-3xl pb-10 italic text-white">
-                    TESTIMONIALS
+                    TESTIMONIALS <span className="animate-fade">{" _"}</span>
                 </div>
 
                 <div className = "flex justify-evenly items-center mt-[55px]">

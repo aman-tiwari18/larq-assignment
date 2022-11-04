@@ -10,6 +10,19 @@ module.exports = {
 
         
 
+      },
+      keyframes : {
+        fading: {
+          '0%' : {
+            opacity: 0
+          },
+          '100%' : {
+            opacity: 1
+          }
+        }
+      },
+      animation: {
+        fade: 'fading 1s ease-in-out infinite',
       }
     },
   },
