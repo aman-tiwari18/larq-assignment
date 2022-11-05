@@ -31,7 +31,7 @@ const Homepage = () => {
       <div className = {style ? "kbutton" : "prebutton"}>
           <button>KNOW MORE</button>
       </div>
-      <div className = "absolute flex right-0 bottom-0  mb-14 items-center justify-center text-white bg-[#13395B] rounded-20 h-[35px] w-[100px] ">
+      <div className = "absolute flex right-0 bottom-0  mb-14 items-center justify-center text-white bg-[#13395B] rounded-[4px] h-[35px] w-[150px] ">
         <button>Add Cart</button>
       </div>
     </div>

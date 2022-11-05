@@ -1,3 +1,7 @@
+import bottleBlue from "../assets/bottleBlue.png";
+import bottleGreen from "../assets/bottleGreen.png"
+import bottleDarkGreen from "../assets/bottleDarkGreen.png"
+import bottlePink from "../assets/bottlePink.png"
 function Bottles() {
   return (
     <div className="h-screen w-full flex flex-col justify-center bg-white">
@@ -6,7 +10,28 @@ function Bottles() {
           background:
             "linear-gradient(180deg, rgba(28, 91, 79, 0.2) 0%, rgba(28, 142, 128, 0.2) 100%), radial-gradient(81.25% 325% at 14.27% 29.03%, #565859 9.84%, rgba(17, 24, 30, 0.98) 65.12%)",
         }}
-      ></div>
+      >
+          <div className="relative">
+            <div className="absolute">
+                <img src={bottleBlue} alt="bottleBlue" width="350px" height="auto" />
+            </div>
+            <div className="translate-x-[400px] translate-y-[-50px] absolute">
+                <img src={bottleGreen} alt="bottleBlue" width="450px" height="auto" />
+            </div>
+            <div className="absolute translate-x-[700px] translate-y-[200px]">
+                <img src={bottleDarkGreen} alt="bottleBlue" width="450px" height="auto" />
+            </div>
+            <div className="absolute right-0 translate-y-[-50px]">
+                <img src={bottlePink} alt="bottleBlue" width="350px" height="auto" />
+            </div>
+            <div className="flex absolute h-screen w-full justify-center items-center">
+                <div className="text-7xl font-bold text-white text-center">
+                A smart <br />
+                way to sip
+                </div>
+            </div>
+          </div>
+      </div>
     </div>
   );
 }
