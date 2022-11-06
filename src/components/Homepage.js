@@ -3,16 +3,16 @@ import "./homepage.css";
 import CapPng from "../assets/cap.png";
 import bottle from "../assets/bottle.png";
 import Cart from "../assets/cart/cart.png";
-
+import { useNavigate } from "react-router-dom";
 const Homepage = () => {
   const [style, setStyle] = React.useState(false);
-
+  
+  const navigate = useNavigate()
   React.useEffect(() => {
     setTimeout(() => {
       setStyle(true);
     }, 1300);
   }, []);
-
   return (
     <div className="flex justify-center">
       <div className={style ? "next" : "cap"}>
@@ -39,7 +39,11 @@ const Homepage = () => {
           <img src={Cart} alt="csrt" width="16px" className="mr-[4px]" />
         </div>
         <div>
-          <button>Add Cart</button>
+          <button onClick ={
+            ()=>{
+              navigate("/product")
+            }
+          }>Add Cart</button>
         </div>
       </div>
     </div>

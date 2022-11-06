@@ -10,11 +10,15 @@ import video from "../assets/video.png";
 import item1 from "../assets/item1.png";
 import item2 from "../assets/item2.png";
 import item3 from "../assets/item3.png";
+import fb from '../assets/facebookprod.png'
+import twt from '../assets/twitterprod.png'
+import pin from '../assets/pinprod.png'
+import star from '../assets/star.png'
 
 
 function ProdPage() {
   return (
-    <div className="main-section">
+    <div className="main-section ">
       <div className="seller-name">LARQ Bottle Filtered<span className="animate-fade"> _</span></div>
       <div className="info-section">
         <div className="flex">
@@ -22,14 +26,17 @@ function ProdPage() {
           <div className="unselected-tab">Product Details</div>
           <div className="unselected-tab">Reviews</div>
         </div>
-        <div className="flex">
-          <div>star</div>
-          <div>12 reviews</div>
+        <div className="flex flex-col">
+          <div>
+              <img src = {star} alt = "star" style= {{height: "18px" ,width:"100px"}}/>
+          </div>
+          <div className = "text-right py-2">12 reviews</div>
         </div>
       </div>
       <div className="border-line"></div>
       <div className="item-section">
-        <div className='item-des'>
+          <div className = "flex items-center flex-col">
+          <div className='item-des'>
         <div className="item-image">
           <img src={prev} alt="" className="prev-btn" />
           <img src={bottle} alt="" className="bottle" />
@@ -43,6 +50,20 @@ function ProdPage() {
           <img src={video} alt="" className="alt-image" />
         </div>
         </div>
+        <div className = "flex justify-between gap-6 py-4 items-center">
+            <div className = "text-[20px] font-semibold">Share:</div>
+            <div>
+                <img src = {fb} alt = "fb" style= {{height: "12px" ,width:"12px"}}/>
+            </div>
+            <div>
+                <img src = {twt} alt = "fb" style= {{height: "12px" ,width:"12px"}}/>
+            </div>
+            <div>
+                <img src = {pin} alt = "fb" style= {{height: "12px" ,width:"12px"}}/>
+            </div>
+        </div>
+          </div>
+        
       
         <div className="item-info">
           <div className="price">
@@ -114,10 +135,23 @@ function ProdPage() {
       </div>
       <div className="other-rec">
         <div className='rec-text'>Recomendations...</div>
-        <div className='other-photo'>
-        <img src={item1} alt="" className ="img-item" />
-          <img src={item2} alt="" className ="img-item" />
-          <img src={item3} alt="" className ="img-item" /> 
+        <div className='other-photo text-center '>
+            <div>
+            <img src={item1} alt="" className ="img-item" />
+            <div className = "text-[28px] font-semibold text-[#13395B]">Monaco Green</div>
+            <div className = "text-[18px] ">LARQ Purevis</div>
+            </div>
+            <div>
+            <img src={item2} alt="" className ="img-item" />
+            <div className = "text-[28px] font-semibold text-[#13395B]">Obsidian Pearl</div>
+            <div className = "text-[18px] ">LARQ Filtervis</div>
+            </div>
+            <div>
+            <img src={item3} alt="" className ="img-item" /> 
+            <div className = "text-[28px] font-semibold text-[#13395B]">Pure Snow</div>
+            <div className = "text-[18px] ">LARQ Pitcher PureVis™</div>
+            </div>
+          
 
         </div>
       </div>

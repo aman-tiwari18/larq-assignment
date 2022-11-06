@@ -1,7 +1,8 @@
 .main-section {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 130px;
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
 
 .seller-name {
@@ -35,9 +36,9 @@
   align-items: center;
   text-align: center;
   color: #13395b;
+  margin-right :10px;
 }
 .unselected-tab {
-  padding: 10px 10px;
   gap: 10px;
   width: 128px;
   height: 46px;
@@ -48,8 +49,11 @@
   line-height: 160%;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   color: #9a9ca5;
+  margin-right :8px;
+
 }
 .border-line {
   height: 1px;
@@ -70,27 +74,20 @@
   border: 1px solid #424551;
   border-radius: 16px;
   display: flex;
+  align-items: center;
+    justify-content: space-around;
 }
 .bottle {
   width: 127px;
   height: 400px;
-  top: 58px;
-  left: 100px;
-  position: relative;
 }
 .prev-btn {
   width: 48px;
   height: 48px;
-  position: relative;
-  left: 20px;
-  top: 230px;
 }
 .next-btn {
   width: 48px;
   height: 48px;
-  position: relative;
-  top: 230px;
-  left: 169px;
 }
 .filter {
   display: flex;
@@ -111,6 +108,7 @@
   font-size: 24px;
   line-height: 130%;
   color: #13395b;
+  margin-right: 10px;
 }
 .dis {
   width: 67px;
@@ -120,6 +118,7 @@
   line-height: 150%;
   text-decoration-line: line-through;
   color: #787a80;
+  margin-right: 10px;
 }
 .off-tag {
   padding: 1px 8px;
@@ -188,7 +187,7 @@
 .insulated-button {
   display: flex;
   align-items: center;
-  padding: 10px 11px;
+  justify-content: center;
   width: 109px;
   height: 44px;
   border: 1px solid #17696a;
@@ -198,8 +197,8 @@
 }
 .non-insulated {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 0px 11px;
   gap: 8px;
   width: 118px;
   height: 44px;
@@ -220,6 +219,7 @@
   border: 1px solid #d7dadd;
   border-radius: 4px;
   margin-right: 12px;
+  justify-content: center;
 }
 .add-to-cart {
   display: flex;
@@ -293,6 +293,8 @@
 }
 .all-image {
   display: flex;
+  justify-content: center;
+  overflow-x: scroll;
 }
 .alt-image {
   width: 104px;
@@ -316,4 +318,12 @@
 .img-item {
   width: 350px;
   height: 350px;
+}
+
+.img-item:hover{
+    transform: scale(1.05); 
+    border-width: 2px;
+    border-color: black;
+    border-radius: 32px;
+    background-color: white;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import fav from '../assets/FavIcon.png'
-import cart from '../assets/CartIcon.png'
+import cart from "../assets/CartIcon.png";
 import search from '../assets/SearchIcon.png'
 import user from '../assets/UserIcon.png'
 import logo from '../assets/logo.png'
