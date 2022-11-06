@@ -41,7 +41,7 @@ const Homepage = () => {
         <div>
           <button onClick ={
             ()=>{
-              navigate("/product")
+              navigate("/larq-assignment/product")
             }
           }>Add Cart</button>
         </div>

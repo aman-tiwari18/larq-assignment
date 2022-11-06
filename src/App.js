@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/"
+          path="/larq-assignment"
           element={
             <div>
               <div className="h-screen">
@@ -25,7 +25,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/product" element={<Product />} />
+        <Route path="/larq-assignment/product" element={<Product />} />
       </Routes>
     </BrowserRouter>
   );
