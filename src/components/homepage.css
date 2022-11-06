@@ -22,6 +22,7 @@
 }
 
 .circle {
+  position: absolute;
   border-radius: 100%;
   width: 295px;
   height: 295px;
@@ -50,7 +51,7 @@
   }
 }
 
-.bottle {
+.bottle-home {
   position: absolute;
   transform: translateY(340px);
   z-index: -1;
@@ -76,46 +77,46 @@
   animation: headingAnim 1.5s linear 1.3s forwards;
 }
 .sub-heading {
-    position: absolute;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(280px);
-    color: black;
-    word-spacing: 3px;
-    animation: subHeadingAnim 1.5s linear 1.3s forwards;
-  }
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(280px);
+  color: black;
+  word-spacing: 3px;
+  animation: subHeadingAnim 1.5s linear 1.3s forwards;
+}
 
-  .kbutton{
-    position: absolute;
-    text-align: center;
-    align-items: center;
-    transform: translateY(430px);
-    z-index: -2;
-    background-color: #E9C46B;
-    height: 30px;
-    width: 120px;
-    font-size: 13px;
-    padding: 2px 3px;
-    border-radius: 6px;
+.kbutton {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  transform: translateY(430px);
+  z-index: -2;
+  background-color: #e9c46b;
+  height: 30px;
+  width: 120px;
+  font-size: 13px;
+  padding: 2px 3px;
+  border-radius: 6px;
 
-    animation: kbuttonAnim 1s linear 0s forwards;
-  }
-  .prebutton{
-    position: absolute;
-    text-align: center;
-    transform: translateY(430px);
-    z-index: -2;
-  }
+  animation: kbuttonAnim 1s linear 0s forwards;
+}
+.prebutton {
+  position: absolute;
+  text-align: center;
+  transform: translateY(430px);
+  z-index: -2;
+}
 
 @keyframes kbuttonAnim {
-    from{
-        opacity: 0;
-        transform: translateY(430px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(310px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(430px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(310px);
+  }
 }
 @keyframes headingAnim {
   from {
@@ -129,13 +130,12 @@
 }
 
 @keyframes subHeadingAnim {
-    from {
-      opacity: 0;
-      font-size: 8px;
-    }
-    to {
-      opacity: 1;
-      font-size: 12px;
-    }
+  from {
+    opacity: 0;
+    font-size: 8px;
   }
-
+  to {
+    opacity: 1;
+    font-size: 12px;
+  }
+}

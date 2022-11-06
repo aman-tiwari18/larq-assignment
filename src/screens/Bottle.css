@@ -1,0 +1,80 @@
+.bottleBlue {
+  position: absolute;
+  transform: translate(0px, 300px);
+  animation: bottleBlueAnim 0.6s linear 0.2s forwards;
+}
+
+@keyframes bottleBlueAnim {
+  from {
+    transform: translate(0px, 300px);
+  }
+
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+.bottleGreen {
+  position: absolute;
+  transform: translate(550px, -40px);
+  animation: bottleGreenAnim 0.8s linear 0.2s forwards;
+}
+
+@keyframes bottleGreenAnim {
+  from {
+    transform: translate(550px, -40px);
+  }
+  to {
+    transform: translate(400px, -40px);
+  }
+}
+
+.bottleDarkGreen {
+  position: absolute;
+  transform: translate(700px, 400px);
+  animation: bottleDarkGreenAnim 1s linear 0.2s forwards;
+}
+
+@keyframes bottleDarkGreenAnim {
+  from {
+    transform: translate(700px, 400px);
+  }
+
+  to {
+    transform: translate(700px, 200px);
+  }
+}
+
+.bottlePink {
+  position: absolute;
+  right: 0;
+  transform: translateY(0px);
+  animation: bottlePinkAnim 0.5s linear 0.2s forwards;
+}
+
+@keyframes bottlePinkAnim {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+
+.parallex {
+    width: 100%;
+    position: absolute;
+    animation: parallexEffect 0.5s linear 0.3 forwards;
+    height: 50%;
+    background: white;
+    z-index: 100;
+}
+
+@keyframes parallexEffect {
+    from {
+        height: 50%;
+    }
+    to {
+        height: 0%;
+    }
+}

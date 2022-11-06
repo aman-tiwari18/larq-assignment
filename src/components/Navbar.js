@@ -1,10 +1,10 @@
 import React from 'react'
-
+import logo from '../assets/logo.png'
 const Navbar = () => {
     return (
         <div className = "flex justify-between py-8 px-40">
             <div>
-                <h1 className = "text-3xl">LARQ</h1>
+            <img src = {logo} alt = "search" style= {{height: "24px" ,width:"100px"}} />
             </div>
             <div className = " text-xl font-bold flex text-gray-500  gap-16 items-center">
                 

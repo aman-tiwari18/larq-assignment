@@ -7,6 +7,7 @@ import whatsapp from "../assets/whatsapp.png";
 const Footer = () => {
   return (
     <div className="bg-white  ">
+      <hr className = "bg-blue-900 h-[2px]"/>
       <div className="font-semibold justify-evenly flex py-10">
         <div className="">
           <ul className="font-bold text-[18px]">Help</ul>
